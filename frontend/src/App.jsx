@@ -12,7 +12,7 @@ import ProfilePage from './pages/ProfilePage'
 import Sidebar from './components/Sidebar'
 import RightPanel from './components/RightPanel'
 import FullPageLoadingSpinner from './components/FullPageLoadingSpinner'
-import bgImage from './bg.jpg';
+
 
 
 export default function App() {
