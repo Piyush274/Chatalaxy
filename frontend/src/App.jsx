@@ -12,6 +12,7 @@ import ProfilePage from './pages/ProfilePage'
 import Sidebar from './components/Sidebar'
 import RightPanel from './components/RightPanel'
 import FullPageLoadingSpinner from './components/FullPageLoadingSpinner'
+import bgImage from './bg.jpg';
 
 
 export default function App() {
@@ -46,8 +47,7 @@ export default function App() {
 
   //If you render <LoginPage /> directly, the URL remains /, even though the login page is displayed
 
-  const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-[url('./bg.jpg')]" : "flex";
-  console.log("bg from frontend",bg);
+  const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-[url('/bg.jpg')]" : "flex";
 
   return (
     <div className={bg}>

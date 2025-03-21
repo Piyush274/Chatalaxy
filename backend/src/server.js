@@ -10,7 +10,6 @@ import userRoute from "./routes/user.route.js"
 import postRoute from "./routes/post.route.js"
 import notificationRoute from "./routes/notification.route.js"
 import dbConnect from "./db/dbConnect.js";
-import exp from "constants";
 
 // Configuration to connect cloudinary
 cloudinary.config({ 
