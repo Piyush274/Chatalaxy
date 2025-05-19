@@ -48,10 +48,11 @@ export default function App() {
   //If you render <LoginPage /> directly, the URL remains /, even though the login page is displayed
 
   // const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-[url('/bg.jpg')]" : "flex";
-  const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-beige" : "flex";
+  // const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-beige" : "flex";
 
   return (
-    <div className={bg}>
+    <div className='flex' >
+      
       {authUser &&  <Sidebar/>}    
        <Routes>
           <Route path='/' element={authUser ? <HomePage/> : <Navigate to='/login'/>}/>
