@@ -45,11 +45,6 @@ export default function App() {
 
    console.log("Auth User",authUser);
 
-  //If you render <LoginPage /> directly, the URL remains /, even though the login page is displayed
-
-  // const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-[url('/bg.jpg')]" : "flex";
-  // const bg =  !authUser ? "flex bg-cover bg-center bg-no-repeat bg-beige" : "flex";
-
   return (
     <div className='flex' >
       
