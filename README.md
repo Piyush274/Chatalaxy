@@ -1,4 +1,4 @@
-# 🌌 Chatalaxy
+# Chatalaxy
 
 **Live Demo → [https://chatalaxy.onrender.com/](https://chatalaxy.onrender.com/)**
 
@@ -16,7 +16,6 @@ Chatalaxy is a dynamic and interactive social media platform built with the MERN
 - 🧹 Delete Notifications
 - 🧑 Edit and Update Profile
 - 📱 Fully Responsive Design
-- ⚡ Optimized with `react-query` and `date-fns`
 - 🧠 Built using 3D libraries like `react-three/fiber` for an enhanced UI experience
 
 ---
@@ -31,8 +30,8 @@ In a world filled with social platforms, Chatalaxy was born out of a desire to c
 
 ### 🖥️ Frontend
 - **React 18**, **React Router v7**
-- **Tailwind CSS**, **clsx**, **tailwind-merge**, **tailwindcss-animate**
-- **@tanstack/react-query**, **date-fns**, **react-hot-toast**
+- **Tailwind CSS**
+- **@tanstack/react-query**, **react-hot-toast**
 - **@react-three/fiber**, **three.js**, **lucide-react**, **radix-ui**
 - **Responsive & accessible UI components**
 
@@ -54,3 +53,10 @@ In a world filled with social platforms, Chatalaxy was born out of a desire to c
 ```bash
 git clone https://github.com/your-username/chatalaxy.git
 cd chatalaxy
+
+
+
+
+
+
+
