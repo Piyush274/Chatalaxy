@@ -1,66 +1,56 @@
-# HillConnect
+# 🌌 Chatalaxy
 
-🚀 **HillConnect** is a Twitter-like social media platform designed exclusively for the students of **NIT Hamirpur**. Built to showcase a **Full-Stack project**, it enables students to connect, share, and engage with their peers in real time.
+**Live Demo → [https://chatalaxy.onrender.com/](https://chatalaxy.onrender.com/)**
 
-🔗 **Live Demo**: [HillConnect](https://hillconnect1.onrender.com)
-
----
-
-## 🛠️ Tech Stack
-- **MERN** (MongoDB, Express.js, React, Node.js)
-- **TanStack Query** (for efficient data fetching)
-- **ShadCN UI** (for sleek and modern styling)
+Chatalaxy is a dynamic and interactive social media platform built with the MERN stack. It offers users a seamless experience to connect, interact, and engage with real-time updates, stunning UI components, and a modern tech stack.
 
 ---
 
-## 🎯 Features
-✅ **Fully Responsive** – Optimized for all screen sizes 📱💻
-✅ **User Authentication** – Secure login & signup 🔐
-✅ **Suggested Users** – Discover and connect with peers 🤝
-✅ **Create Posts** – Share thoughts, updates, and experiences ✍️
-✅ **Personalized Feed** – See posts from followed users 📜
-✅ **Follow Functionality** – Follow & interact with others 🔄
-✅ **Profile Customization** – Update profile details, profile picture, and cover image 🖼️
-✅ **Real-Time Updates** – Instant sync for a seamless experience ⚡
+## ✨ Features
+
+- 🔐 JWT-based Authentication & Authorization
+- 📝 Create, Delete, and Like Posts
+- 💬 Comment on Posts
+- 👥 Follow and Unfollow Users
+- 🔔 Real-Time Notifications
+- 🧹 Delete Notifications
+- 🧑 Edit and Update Profile
+- 📱 Fully Responsive Design
+- ⚡ Optimized with `react-query` and `date-fns`
+- 🧠 Built using 3D libraries like `react-three/fiber` for an enhanced UI experience
 
 ---
 
-## 🚀 Future Enhancements
-🔹 **Chat Functionality** – Real-time messaging between users 💬
-🔹 **Lost & Found Section** – Report and find lost items 🎒
-🔹 **Anonymous Posting** – Share opinions without revealing identity 👤
-🔹 **AI Chatbot** – Generate posts with the help of an AI chatbot 🤖
+## 🎯 Motivation
+
+In a world filled with social platforms, Chatalaxy was born out of a desire to create a minimal yet powerful social media ecosystem that blends performance, simplicity, and real-time engagement. The goal was to build a full-featured app that showcases modern technologies while offering a robust user experience.
 
 ---
 
-## 💻 Getting Started
+## 🔧 Tech Stack
 
-### 1️⃣ Clone the Repository
-```sh
- git clone https://github.com/yourusername/hillconnect.git
- cd hillconnect
-```
+### 🖥️ Frontend
+- **React 18**, **React Router v7**
+- **Tailwind CSS**, **clsx**, **tailwind-merge**, **tailwindcss-animate**
+- **@tanstack/react-query**, **date-fns**, **react-hot-toast**
+- **@react-three/fiber**, **three.js**, **lucide-react**, **radix-ui**
+- **Responsive & accessible UI components**
 
-### 2️⃣ Install Dependencies
-```sh
- npm install
-```
-
-### 3️⃣ Start the Development Server
-```sh
- npm run dev
-```
-
-🔹 The app will be running at `http://localhost:3000/`
+### 🌐 Backend
+- **Express.js**
+- **MongoDB & Mongoose**
+- **JWT for authentication**
+- **Cloudinary for image uploads**
+- **bcryptjs** for password hashing
+- **dotenv**, **cookie-parser**
+- **Three.js** & **maath** for advanced rendering support
 
 ---
 
----
+## 🛠️ Getting Started
 
-## 📜 License
-This project is licensed under the **MIT License**.
+### 1. Clone the Repository
 
----
-
-💙 **Developed with passion for the students of NIT Hamirpur!** 🎓
-
+```bash
+git clone https://github.com/your-username/chatalaxy.git
+cd chatalaxy
