@@ -46,14 +46,6 @@ In a world filled with social platforms, Chatalaxy was born out of a desire to c
 
 ---
 
-## 🛠️ Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/chatalaxy.git
-cd chatalaxy
-
 
 
 
