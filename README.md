@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌌 Chatalaxy – A Modern MERN Social Media Platform
 
 **Live Demo → [chatalaxy.onrender.com](https://chatalaxy.onrender.com/)**
@@ -101,26 +100,17 @@ In a world filled with social platforms, Chatalaxy was born out of a desire to c
 - **bcryptjs** for password hashing
 - **dotenv**, **cookie-parser**
 - **Three.js** & **maath** for advanced rendering support
->>>>>>> f594b7461a399843d88e3f2980907f5189a59452
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/chatalaxy.git
 cd chatalaxy
 
-<<<<<<< HEAD
 # 2. Install dependencies
 npm install
 
 # 3. Add environment variables
 cp .env.example .env
-=======
-
-
-
-
-
->>>>>>> f594b7461a399843d88e3f2980907f5189a59452
 
 # 4. Start the development server
 npm run dev
