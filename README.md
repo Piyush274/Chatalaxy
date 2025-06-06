@@ -1,66 +1,70 @@
-# HillConnect
+# 🌌 Chatalaxy – A Modern MERN Social Media Platform
 
-🚀 **HillConnect** is a Twitter-like social media platform designed exclusively for the students of **NIT Hamirpur**. Built to showcase a **Full-Stack project**, it enables students to connect, share, and engage with their peers in real time.
+**Live Demo → [chatalaxy.onrender.com](https://chatalaxy.onrender.com/)**
 
-🔗 **Live Demo**: [HillConnect](https://hillconnect1.onrender.com)
+Chatalaxy is a dynamic, full-stack social media application built with the **MERN** stack. It delivers a seamless and real-time experience where users can share posts, engage with others, manage profiles, and enjoy an immersive UI powered by 3D libraries like `react-three/fiber`.
+
+---
+
+## ✨ Key Features
+
+- 🔐 **JWT Authentication & Authorization**
+- 📝 **Create, Like, and Delete Posts**
+- 💬 **Comment System** – Interact in real time
+- 👥 **Follow / Unfollow Users**
+- 🔔 **Real-Time Notifications**
+- ❌ **Delete Notifications**
+- 🧑‍💻 **Edit & Update Profile**
+- 🌐 **Responsive Design** – Fully optimized for mobile and desktop
+- 🧠 **3D-Enhanced UI** – Built using `react-three/fiber` & `three.js`
+
+---
+
+## 🎯 Project Motivation
+
+> In today’s digital age, Chatalaxy was created to offer a minimalist yet powerful alternative to traditional social platforms. The goal was to blend **real-time interactivity**, **modern design**, and **cutting-edge technologies** to deliver a rich user experience — all while learning and applying full-stack development skills.
 
 ---
 
 ## 🛠️ Tech Stack
-- **MERN** (MongoDB, Express.js, React, Node.js)
-- **TanStack Query** (for efficient data fetching)
-- **ShadCN UI** (for sleek and modern styling)
+
+### 🖥️ Frontend
+- **React 18**, **React Router v7**
+- **Tailwind CSS** for utility-first styling
+- **@tanstack/react-query** – Server state management
+- **react-hot-toast** – Elegant toast notifications
+- **@react-three/fiber**, **three.js** – 3D rendering
+- **lucide-react**, **radix-ui** – Icons & accessible UI primitives
+
+### 🌐 Backend
+- **Node.js + Express.js**
+- **MongoDB** with **Mongoose** ORM
+- **JWT** – Secure token-based auth
+- **Cloudinary** – Media storage and optimization
+- **bcryptjs** – Password hashing
+- **dotenv**, **cookie-parser** – Environment and session handling
 
 ---
 
-## 🎯 Features
-✅ **Fully Responsive** – Optimized for all screen sizes 📱💻
-✅ **User Authentication** – Secure login & signup 🔐
-✅ **Suggested Users** – Discover and connect with peers 🤝
-✅ **Create Posts** – Share thoughts, updates, and experiences ✍️
-✅ **Personalized Feed** – See posts from followed users 📜
-✅ **Follow Functionality** – Follow & interact with others 🔄
-✅ **Profile Customization** – Update profile details, profile picture, and cover image 🖼️
-✅ **Real-Time Updates** – Instant sync for a seamless experience ⚡
+## 📸 Screenshots
+![alt text](image.png)
+![alt text](image-1.png)
+
 
 ---
 
-## 🚀 Future Enhancements
-🔹 **Chat Functionality** – Real-time messaging between users 💬
-🔹 **Lost & Found Section** – Report and find lost items 🎒
-🔹 **Anonymous Posting** – Share opinions without revealing identity 👤
-🔹 **AI Chatbot** – Generate posts with the help of an AI chatbot 🤖
+## 🚀 Getting Started
 
----
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/chatalaxy.git
+cd chatalaxy
 
-## 💻 Getting Started
+# 2. Install dependencies
+npm install
 
-### 1️⃣ Clone the Repository
-```sh
- git clone https://github.com/yourusername/hillconnect.git
- cd hillconnect
-```
+# 3. Add environment variables
+cp .env.example .env
 
-### 2️⃣ Install Dependencies
-```sh
- npm install
-```
-
-### 3️⃣ Start the Development Server
-```sh
- npm run dev
-```
-
-🔹 The app will be running at `http://localhost:3000/`
-
----
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-💙 **Developed with passion for the students of NIT Hamirpur!** 🎓
-
+# 4. Start the development server
+npm run dev
